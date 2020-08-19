@@ -3,12 +3,14 @@ library(tidyr)
 
 #read training set 
 #Not readig in the inertial signals folder because we only need the variables about mean and sd from the 561-feature vector.
+#please note that the X_train.txt file is not uploaded to GitHub due to size limit
 train_subject <- read.table("data/train/subject_train.txt")
 train_X <- read.table("data/train/X_train.txt")
 train_Y <- read.table("data/train/y_train.txt")
 
 #read test set
 #Not readig in the inertial signals folder because we only need the variables about mean and sd from the 561-feature vector.
+#please note that the X_test.txt file is not uploaded to GitHub due to size limit
 test_subject <- read.table("data/test/subject_test.txt")
 test_X <- read.table("data/test/X_test.txt")
 test_Y <- read.table("data/test/y_test.txt")
